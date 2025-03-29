@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Météo Mondiale</title>
+    <link rel="stylesheet" href="meteo.css">
+</head>
+<body>
+    <header class="col-12 col-12">
+        <img src="./meteo.jpg" alt="">
+        <div class="container">
+        <h1>Aylan Météo</h1>
+        <div class="byby">
+        <input type="search" name="search" id="city" placeholder="Entrez une ville">
+        <button id="search-btn" onclick="searchbtn()">Rechercher</button>
+        <button id="geolocate-btn">Utiliser ma position</button>
+    </div>
+    </div>
+    <nav>
+
+    </header>
+    <main>
+        <div id="weather-info">
+            <h2 id="city-name"></h2>
+            <p id="temp"></p>
+            <p id="condition"></p>
+            <p id="humidity"></p>
+            <p id="wind"></p>
+            <div id="forescast"></div>
+        </div>
+    
+    <section id="mimi" class="col-3">
+        <h2>Bienvenue sur Aylan Météo</h2>
+        <p> Consultez les prévisions météorologiques actuelles  et à venir pour n'importe quelle ville dans le monde. Ils vous suffit d'entrer  le nom de la ville et d'obtenir des informations précises sur la température, les conditions météorologiques, l'humidité et la vitesse du vent. Vous trouverez également des prévisions sur les 5 jours à venir. N'est ce pas cool ! hein ?  Et ceci gratuietement. Préparez-vous à affronter le temps avec facilité !</p>
+    </section>
+    <section class="col-6">
+        <h4></h4>
+        <p></p>
+    </section>
+    <section id="chichi" class="col-3 col-s-12">
+        <h5></h5>
+        <p>Merci d'utiliser notre service de météo mondiale! Nous espérons que vous trouverez ces informations utiles pour planifier vos journées. Restez à l'écoute et à l'abri des intempéries!</p>
+    </section>
+</main>
+    
+    <footer class="col-12 col-s-12">
+        <button id="theme-toggle">Mode Sombre/Clair</button>
+        <p>Choisissez votre mode préféré pour une experience de navigation agreable!</p>
+        <br>
+        <br>
+        <p>&copy; 2025  Aylan Météo</p>
+    </footer>
+    <script src="meteo.js"></script>
+    
+</body>
+</html>
